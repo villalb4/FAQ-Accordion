@@ -1,0 +1,53 @@
+.tab {
+  width: 350px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 15px 17px 1.3px;
+  cursor: pointer;
+}
+
+button {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.005em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.arrow {
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+.arrow_active {
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}
+.answer_cont {
+  padding-right: 30px;
+}
+.content {
+  max-height: 0;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  color: #737375;
+  transition: all 0.5s;
+}
+.content_active {
+  transition: 0.5s cubic-bezier(0,1,0,1);
+  height: auto;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  color: #737375;
+  margin: 0 0 17px 0;
+}
+hr {
+  border: none;
+  background-color: #e8e8e8;
+  height: 1px;
+}
